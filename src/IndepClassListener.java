@@ -11,7 +11,7 @@ public class IndepClassListener extends JFrame {
         JButton btn = new JButton();
         btn.addActionListener(new MyActionListenr());
         c.add(btn);
-        setSize(250, 120);
+        setSize(250, 120);   
         setVisible(true);
     }
     public static void main(String [] args) {
